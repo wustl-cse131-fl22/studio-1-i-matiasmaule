@@ -15,6 +15,13 @@ public class Ordered {
 		int y = in.nextInt();
 		System.out.println("Value for z?");
 		int z = in.nextInt();
+		boolean isoOrdered = x > y;
+		isoOrdered = y > z;
+		System.out.println("True or false. The numbers descend in order. " + isoOrdered);
+		isoOrdered = x < y; 
+		isoOrdered = y < z;
+		System.out.println("True or false. The numbers ascend in order. " + isoOrdered);
+
 
 	}
 
